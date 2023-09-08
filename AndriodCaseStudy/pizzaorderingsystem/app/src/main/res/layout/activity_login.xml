@@ -7,22 +7,18 @@
     android:gravity="center"
     android:padding="25dp"
     android:orientation="vertical"
-    android:background="#0000BCD4"
+    android:background="@drawable/img1"
     tools:context=".activity.LoginActivity">
+
     <EditText
         android:id="@+id/editEmail"
         android:hint="email"
-        android:drawableLeft="@drawable/email"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        android:textColorHighlight="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/editPassword"
         android:inputType="textPassword"
         android:hint="password"
-        android:textColorHint="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -33,14 +29,9 @@
         android:layout_height="wrap_content"/>
 
     <Button
+
         android:onClick="login"
         android:text="Login"
-        android:shadowColor="@android:color/transparent"
-        android:padding="15dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -48,13 +39,10 @@
 
         android:textSize="15dp"
         android:onClick="register"
-        android:textColor="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
         android:layout_marginTop="10dp"
         android:text="Register here..."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
-
-
 
 </LinearLayout>

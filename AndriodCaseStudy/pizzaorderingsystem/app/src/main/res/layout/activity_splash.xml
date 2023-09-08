@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.splashActivity">
+    android:background="@color/black"
+    tools:context=".activity.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="407dp"
-        android:layout_height="626dp"
-        android:src="@drawable/" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pizza" />
+
 </LinearLayout>
